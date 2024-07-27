@@ -98,7 +98,6 @@ public class MVTApplication extends Application {
     }
 
     private void initializeMainScene(Stage primaryStage) {
-        // Initialize UI components
         jobQueueTextArea = new TextArea();
         jobQueueTextArea.setEditable(false);
         jobQueueTextArea.setPrefHeight(200);
